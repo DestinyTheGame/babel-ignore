@@ -58,7 +58,7 @@ look like:
   - Babel throws an exception when it encounters a option that it doesn't
     recognize. So we had to invent another property that this module could read
     out.
-_ **Just compile your code and be done with it**
+- **Just compile your code and be done with it**
   - I don't want to setup and multi step build process for each ES6 module that
     I write. This is something that should be fixed by tooling, not by
     libraries and packages them selfs. The only other option is to write ES5
