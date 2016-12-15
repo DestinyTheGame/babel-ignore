@@ -27,7 +27,7 @@ module.exports = function babelignore(file) {
       // requires an addition compilation step and it should *not* be
       // ignored.
       //
-      if (root['babel-register'] === true) {
+      if (root['babel-ignore'] === false) {
         ignore = false;
         break;
       }

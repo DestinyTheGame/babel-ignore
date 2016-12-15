@@ -25,7 +25,7 @@ So how do you tell your modules to opt-in to the `babel-register`. This is done
 by adding a property to the `package.json` of your project. Simply add:
 
 ```js
-"babel-register": true
+"babel-ignore": false
 ```
 
 As property and you're done! So a complete package.json of a module that uses
@@ -42,7 +42,7 @@ look like:
     "babel-preset-es2015": "6.18.0",
     "babel-preset-react": "6.16.0"
   },
-  "babel-register": true,
+  "babel-ignore": false,
   "babel": {
     "presets": [
       "babel-preset-es2015",
