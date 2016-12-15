@@ -1,6 +1,6 @@
 {
   "name": "babel-ignore",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Helper function for babel-register to only ignore modules that do not contain a babel configuration in their root",
   "main": "index.js",
   "scripts": {
