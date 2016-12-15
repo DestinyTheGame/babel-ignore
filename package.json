@@ -1,0 +1,25 @@
+{
+  "name": "babel-ignore",
+  "version": "1.0.0",
+  "description": "Helper function for babel-register to only ignore modules that do not contain a babel configuration in their root",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destinythegame/babel-ignore.git"
+  },
+  "keywords": [
+    "babel",
+    "ignore",
+    "babel-ignore",
+    "node_modules"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/destinythegame/babel-ignore/issues"
+  },
+  "homepage": "https://github.com/destinythegame/babel-ignore#readme"
+}
