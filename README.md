@@ -52,6 +52,12 @@ look like:
 }
 ```
 
+## Testing
+
+There is a dedicated `babel-register/ignore` method that will automatically run
+`babel-register` with `ignore` set to this module. It does assume that you have
+`babel-register` as dependency somewhere in the tree. 
+
 ## Frequently Asked Questions
 
 - **I see that babel also supports a babel object in the package.json, why not use it**
